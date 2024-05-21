@@ -1,0 +1,11 @@
+.container, .navbar > .container-fluid {
+    max-width: 90% !important;
+}
+
+.table td, table th {
+    vertical-align: baseline !important;
+}
+
+.equipment-chart {
+    height: 500px !important;
+}
