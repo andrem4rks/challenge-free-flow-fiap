@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D951F80B-95BC-8D52-052F-4597DF41E013" name="T_TARIFA">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:30:21 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tarifa" id="1CB3BE16-6C1A-D292-D26C-90A096FEE05C">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:30:29 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_tarifa" id="C62EB4EF-6FED-C0A0-2E4A-B647F4F7A330">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:30:43 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cobranca" id="240C0B11-7ADE-42CF-0BC0-15537B61FDA2">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:30:54 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_free_flow" id="6EB010E9-65C2-EBC4-1823-9ABB34788577">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:32:12 UTC</createdTime>
+<generatorID>C096F40F-4284-2824-9418-E6BBD2210786</generatorID>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<referedAttribute>E2FACF74-499B-6A69-957E-F7D5394A7C99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa_veiculo" id="35B1F657-99AD-3633-37C0-B55FFE133369">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:33:53 UTC</createdTime>
+<generatorID>3E74949F-66A3-F423-74D2-69720929E326</generatorID>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<referedAttribute>E10EB7B8-3808-9805-EFE8-C4A4AD035287</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD06ECE7-A919-C2B0-7A0B-F477C95883AD" name="T_TARIFA PK">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:30:41 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CB3BE16-6C1A-D292-D26C-90A096FEE05C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

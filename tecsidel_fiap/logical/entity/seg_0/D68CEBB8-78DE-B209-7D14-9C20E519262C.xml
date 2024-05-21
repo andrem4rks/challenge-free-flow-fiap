@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D68CEBB8-78DE-B209-7D14-9C20E519262C" name="T_MANUTENCAO">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:52:37 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_manutencao" id="8DAF7D3E-3B1B-F2ED-B657-284D9ACA239E">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:52:46 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_manutencao" id="C5AFEBD3-1919-A5D0-BBFA-65BDFF2CEABA">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:53:01 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_manutencao" id="D3F9E773-035C-1FD9-64F2-69F1C0583D1F">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:53:24 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="601E8BBC-11D0-81BF-DF4C-99DBD6416F2D" name="T_MANUTENCAO PK">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:52:59 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DAF7D3E-3B1B-F2ED-B657-284D9ACA239E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

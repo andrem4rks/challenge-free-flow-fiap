@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DC87ED1-F0AE-AD50-FEBA-AADD3FF8FBC6" name="T_CIDADE">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:13:57 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cidade" id="7449BD40-2E24-0C1B-2547-7B7D7B85E25D">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:18:42 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="D6F046AC-B79A-23B8-C572-14DAA5601FD9">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:18:54 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estado" id="7A1D066F-F56F-8EDF-37B1-D85656FBB68A">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:26:49 UTC</createdTime>
+<generatorID>CB1F9F6A-E437-2F20-4A4E-3171BC65596D</generatorID>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<referedAttribute>62C68227-8BE6-D797-CC66-C98DE816692D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="866506E7-8B7B-8B00-9EB5-7298047B1C19" name="T_LOCALIDADE PK">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:18:58 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7449BD40-2E24-0C1B-2547-7B7D7B85E25D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

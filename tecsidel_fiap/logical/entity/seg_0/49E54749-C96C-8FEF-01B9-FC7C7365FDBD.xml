@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49E54749-C96C-8FEF-01B9-FC7C7365FDBD" name="T_TECNICO">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:54:49 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_manutencao" id="53C8EF5A-A76E-E400-C9BD-6EBBF75EC9CA">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:55:28 UTC</createdTime>
+<generatorID>0E29A93C-99AD-0B36-6C85-CB4013E973EA</generatorID>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8DAF7D3E-3B1B-F2ED-B657-284D9ACA239E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_tecnico" id="FD89399D-335D-F0DF-DBCB-C3BD1EEA4390">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:55:49 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_tecnico" id="A8F50DE3-707E-E4E2-1B79-D59A182070D0">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:55:57 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_tecnico" id="71745260-8F8B-E816-522B-47A1D1390B74">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:56:09 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8B546C3-0276-DA19-B769-81CA46DF081B" name="T_TECNICO PK">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 18:55:55 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD89399D-335D-F0DF-DBCB-C3BD1EEA4390</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

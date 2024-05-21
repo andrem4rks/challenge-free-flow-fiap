@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D4FC81D-1A8D-BF7F-1E34-0578D1348FE0" name="T_FREE_FLOW">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:10:52 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_free_flow" id="E2FACF74-499B-6A69-957E-F7D5394A7C99">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:11:17 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="7C537385-D453-4B5C-C3DE-808B02755B35">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:15:51 UTC</createdTime>
+<generatorID>28314449-70B2-0585-279E-AD691F33AC6B</generatorID>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<referedAttribute>0603236E-EF0D-0219-A41E-56EEA988149E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_free_flow" id="65ECF2E5-2630-FF4F-0195-489AA3E3F6E8">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:29:51 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C52728B-42B4-DAF0-745C-CB9272A1A9A4" name="T_FREE_FLOW PK">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:11:27 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2FACF74-499B-6A69-957E-F7D5394A7C99</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

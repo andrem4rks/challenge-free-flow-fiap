@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E97A004-B2E9-7F8C-12B0-53866FFF3603" name="T_EQUIPAMENTO">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:27:19 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_equipamento" id="86455835-245D-48F5-BC70-5449C58BF287">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:27:43 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_equipamento" id="73B1300E-C701-8E5F-0D27-2D3369018BF0">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:27:49 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_equipamento" id="D0A2CF33-F34A-3F72-8521-F4BD144EB08A">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:27:54 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_equipamento" id="0D423698-2921-F60E-8361-A871364EEA21">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:28:17 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_free_flow" id="A259E466-5FFF-073E-8446-8C7A78748BFD">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:29:26 UTC</createdTime>
+<generatorID>54A1DC0E-5408-1391-F180-9B8B7BB6ECA1</generatorID>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<referedAttribute>E2FACF74-499B-6A69-957E-F7D5394A7C99</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D36E8AB9-CB0F-B329-43F0-B9C62D98C978" name="T_EQUIPAMENTO PK">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:28:12 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86455835-245D-48F5-BC70-5449C58BF287</attributeRef>
+<attributeRef>A259E466-5FFF-073E-8446-8C7A78748BFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Está em" directorySegmentName="seg_0" id="28314449-70B2-0585-279E-AD691F33AC6B">
+<createdBy>aslima</createdBy>
+<createdTime>2024-05-21 15:15:08 UTC</createdTime>
+<ownerDesignName>tecsidel_fiap</ownerDesignName>
+<engineerTo>
+<item key="4AB887EC-36BE-8D9C-4E75-A9AF06E86213" value="true"/>
+</engineerTo>
+<sourcePk>9C52728B-42B4-DAF0-745C-CB9272A1A9A4</sourcePk>
+<targetPk>DF7B305E-286D-FC89-1DD9-67349E13A4D0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7D4FC81D-1A8D-BF7F-1E34-0578D1348FE0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D3D57D7D-DD50-AB16-CA47-26AA01A5FE46</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
